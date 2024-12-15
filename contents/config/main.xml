@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+    <kcfgfile name=""/>
+
+    <group name="Appearance">
+        <entry name="clockShowSeconds" type="Bool">
+            <label>Makes the clock show seconds</label>
+            <default>true</default>
+        </entry>
+        <entry name="transparentBackground" type="Bool">
+            <label>Fills in clockface with color</label>
+            <default>false</default>
+        </entry>
+        <entry name="backgroundStyle" type="Int">
+            <label>allows user to change background</label>
+            <default>0</default>
+        </entry>
+        <entry name="clockShadowEnabled" type="Bool">
+            <label>Whether the drop shadow should be shown behind the clock label.</label>
+            <default>false</default>
+        </entry>
+        <entry name="clockShadowColor" type="Color">
+            <label>Color of shadow.</label>
+            <default>#80000000</default>
+        </entry>
+        <entry name="clockFaceColor" type="String">
+            <default>#FFFFFF</default>
+        </entry>
+        <entry name="hourHandColor" type="String">
+            <default>#FF0000</default>
+        </entry>
+        <entry name="minuteHandColor" type="String">
+            <default>#00BFFF</default>
+        </entry>
+        <entry name="secondHandColor" type="String">
+            <default>#FFFF00</default>
+        </entry>
+        <entry name="clockDashColor" type="String">
+            <label>color for dash marks and noon</label>
+            <default>#4D2EE6</default>
+        </entry>
+        <entry name="noonFont" type="String">
+            <label>lets you set font for "12"</label>
+            <default>Hack</default>
+        </entry>
+
+    </group>
+</kcfg>

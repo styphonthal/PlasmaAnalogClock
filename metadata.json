@@ -1,0 +1,30 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "your-email@example.com",
+                "Name": "Spencer G"
+            }
+        ],
+        "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Custom%20Widgets",
+        "Category": "Date and Time",
+        "Description": "A custom analog clock with a background image",
+        "EnabledByDefault": true,
+        "FormFactors": [
+            "tablet",
+            "handset",
+            "desktop"
+        ],
+        "Icon": "preferences-system-time",
+        "Id": "org.kde.testingclock",
+        "License": "GPL-2.0+",
+        "Name": "Testing Clock",
+        "Website": "https://yourwebsite.example.com"
+    },
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-Provides": [
+        "org.kde.plasma.time",
+        "org.kde.plasma.date"
+    ]
+}
