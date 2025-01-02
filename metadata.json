@@ -4,7 +4,7 @@
         "Authors": [
             {
                 "Email": "your-email@example.com",
-                "Name": "Spencer G"
+                "Name": "Spencer HG"
             }
         ],
         "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Custom%20Widgets",
@@ -17,10 +17,10 @@
             "desktop"
         ],
         "Icon": "preferences-system-time",
-        "Id": "org.kde.testingclock",
+        "Id": "org.kde.PlasmaAnalogClock",
         "License": "GPL-2.0+",
-        "Name": "Testing Clock",
-        "Website": "https://yourwebsite.example.com"
+        "Name": "Lofi Plasma Analog Clock",
+        "Website": "https://github.com/styphonthal/PlasmaAnalogClock"
     },
     "X-Plasma-API-Minimum-Version": "6.0",
     "X-Plasma-Provides": [
