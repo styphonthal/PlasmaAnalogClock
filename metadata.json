@@ -1,30 +1,21 @@
 {
     "KPackageStructure": "Plasma/Applet",
     "KPlugin": {
+        "Id": "io.github.styphonthal.PlasmaAnalogClock",
+        "Name": "Lofi Plasma Analog Clock",
+        "Description": "A custom analog clock with a background image",
+        "Icon": "preferences-system-time",
+        "Category": "Date and Time",
+        "License": "GPL-2.0-or-later",
+        "Version": "1.1.0",
+        "EnabledByDefault": true,
         "Authors": [
             {
-                "Email": "your-email@example.com",
-                "Name": "Spencer HG"
+                "Name": "Spencer HG",
+                "Email": "your-email@example.com"
             }
         ],
-        "BugReportUrl": "https://bugs.kde.org/enter_bug.cgi?product=plasmashell&component=Custom%20Widgets",
-        "Category": "Date and Time",
-        "Description": "A custom analog clock with a background image",
-        "EnabledByDefault": true,
-        "FormFactors": [
-            "tablet",
-            "handset",
-            "desktop"
-        ],
-        "Icon": "preferences-system-time",
-        "Id": "org.kde.PlasmaAnalogClock",
-        "License": "GPL-2.0+",
-        "Name": "Lofi Plasma Analog Clock",
-        "Website": "https://github.com/styphonthal/PlasmaAnalogClock"
+        "Website": "https://github.com/styphonthal/PlasmaAnalogClock/tree/main"
     },
-    "X-Plasma-API-Minimum-Version": "6.0",
-    "X-Plasma-Provides": [
-        "org.kde.plasma.time",
-        "org.kde.plasma.date"
-    ]
+    "X-Plasma-API-Minimum-Version": "6.0"
 }
