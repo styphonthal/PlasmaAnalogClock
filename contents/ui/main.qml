@@ -24,13 +24,13 @@ PlasmoidItem {
     readonly property real minuteHandBaseLength: 70
     readonly property real secondHandBaseLength: 80
     readonly property real centerDotRadius: 5
-    readonly property real textNoonYOffset: -60
+    readonly property real textNoonYOffset: -65
     readonly property int hourDashCount: 11
     readonly property int hourDashLineWidth: 4
     readonly property int hourHandLineWidth: 10
     readonly property int minuteHandLineWidth: 8
     readonly property int secondHandLineWidth: 4
-    readonly property int textMetricsPixelSize: 24
+    readonly property int textMetricsPixelSize: 32
     readonly property real canvasScaleDivisor: 200
 
     // ===== SHADOW CONFIGURATION CONSTANTS =====
