@@ -1,113 +1,92 @@
-Plasma Analog Clock ⏰
+# Plasma Analog Clock
 
-A configurable analog clock widget for KDE Plasma 6
+A configurable analog clock widget (plasmoid) for KDE Plasma 6.
 
-✨ Features
+<p align="center">
+  <img src="contents/ui/pinkClock.png" width="220" alt="Plasma Analog Clock">
+</p>
 
-Configurable analog clock face
+## Features
 
-Optional second hand (auto-adjusts refresh rate)
+- Configurable analog clock face
+- Optional second hand (adaptive refresh rate)
+- Custom colors:
+  - Clock face
+  - Hour, minute, and second hands
+  - Noon marker and dash marks
+- Multiple background styles
+- Selectable font for the “12” marker
+- Optional shadow effects
+- Preserves correct aspect ratio at all sizes
+- Optimized repainting for low CPU usage
 
-Custom colors for:
+## Version
 
-Clock face
+**v1.1.0** — January 23, 2026
 
-Hour / minute / second hands
+### Changes
+- Fixed tooltip time updates
+- Performance improvements
+- Corrected file names and directory layout
+- Updated for KDE Plasma 6
 
-Noon marker & dash marks
+## Installation
 
-Multiple background styles
+### Method 1 — Install from file (recommended)
 
-Font selection for the “12” marker
+1. Right-click the desktop or panel
+2. Select **Add Widgets**
+3. Click **Get New Widgets**
+4. Choose **Install from File**
+5. Select the `.plasmoid` file
 
-Optional soft shadow effects
+### Method 2 — Manual install (extracted archive)
 
-Maintains correct aspect ratio at all sizes
+Extract into:
 
-Optimized repainting for low CPU usage
+~/.local/share/plasma/plasmoids/
 
-📦 Version
 
-v1.1.0 — January 23, 2026
+### Method 3 — Developer install
 
-What’s new
-
-Fixed tooltip time updates
-
-Performance improvements (adaptive repaint timer)
-
-Corrected file names & layout
-
-Fully updated for Plasma 6
-
-🔧 Installation
-Method 1 — KDE Widget Loader (Recommended)
-
-Right-click the desktop or panel
-
-Select Add Widgets
-
-Click Get New Widgets
-
-Choose Install from File
-
-Select the .plasmoid file
-
-Method 2 — Manual Install (Extracted Archive)
-mkdir -p ~/.local/share/plasma/plasmoids
-tar -xzf PlasmaAnalogClock-1.1.0.tar.gz -C ~/.local/share/plasma/plasmoids
-
-Method 3 — Developer Install
 kpackagetool6 --type Plasma/Applet --install /path/to/io.github.styphonthal.PlasmaAnalogClock
 kquitapp6 plasmashell || true
 systemctl --user restart plasma-plasmashell.service
 
-▶ Usage
+
+## Usage
 
 After installation:
 
-Right-click the desktop or panel
+- Open **Add Widgets**
+- Search for **Plasma Analog Clock**
+- Drag it onto the desktop or panel
+- Right-click → **Configure** to customize
 
-Choose Add Widgets
+## Configuration Options
 
-Search for Plasma Analog Clock
+- Show or hide second hand
+- Background style
+- Noon font selection
+- Clock face color
+- Hand colors
+- Shadow effects
 
-Drag it onto your desktop or panel
+## Planned Improvements
 
-Right-click → Configure to customize
+- Configurable hand shapes
+- Different Effects outside of shadow
+- Additional background styles
+- Optional date display
+- Smooth hand animation option
+- Preset themes
+- AM/PM setting
 
-🧭 Configuration Options
+## Requirements
 
-Show / hide second hand
+- KDE Plasma 6.0 or newer
+- Qt 6
 
-Background style
-
-Font for noon marker
-
-Clock face fill color
-
-Hand colors
-
-Shadow effects
-
-🚧 Planned Features
-
-Improved color selector
-
-Improved font selector
-
-Additional background styles
-
-Optional date display
-
-🖥️ Requirements
-
-KDE Plasma 6.0+
-
-Qt 6
-
-KPackage support enabled (default in Plasma)
-
-📜 License
+## License
 
 GPL-2.0-or-later
