@@ -2,8 +2,13 @@
 
 This is a configurable clock plasmid/widget for KDE Plasma DE.
 
-Future plans:
+Version 1.1 (1/23/26)
+- Fixed ToolTips so it updates
+- Performance improvements
+- Corrected file names and locations
+- Updated for latest Plasma 6
 
+Future plans:
 - fix color selector
 - fix font selector
 - add different backgrounds
@@ -22,9 +27,6 @@ Method 1: nothing, it should be installed and selectable
 Method 2 and 3:
 
 In terminal type:
-
-plasmapkg2 --install /directoryyouputfilesin
-
-then type:
-
-kquitapp5 plasmashell && kstart5 plasmashell
+kpackagetool6 --type Plasma/Applet --install "directoryYouDownloadedToo"
+kquitapp6 plasmashell || true
+systemctl --user restart plasma-plasmashell.service
